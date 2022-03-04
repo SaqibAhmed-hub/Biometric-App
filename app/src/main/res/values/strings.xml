@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dagger_Hilt_Example</string>
+    <string name="phone_number">Phone number, email, or username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="use_biometric">use biometric</string>
+    <string name="hello">Hello</string>
+</resources>
