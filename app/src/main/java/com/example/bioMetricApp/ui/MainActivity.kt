@@ -31,7 +31,8 @@ class MainActivity : AppCompatActivity(), BiometricAuthListener {
         when (error) {
             BiometricPrompt.ERROR_USER_CANCELED -> finish()
             BiometricPrompt.ERROR_NEGATIVE_BUTTON -> {
-                Toast.makeText(this, "Negative Button", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this,LoginActivity::class.java))
+                finish()
             }
         }
 

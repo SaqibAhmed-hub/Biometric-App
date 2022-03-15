@@ -29,5 +29,6 @@ class LoginActivity : AppCompatActivity() {
 
     private fun navigateToActivity() {
         startActivity(Intent(this, AuthActivity::class.java))
+        finish()
     }
 }
