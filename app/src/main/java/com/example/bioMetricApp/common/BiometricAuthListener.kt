@@ -5,6 +5,6 @@ import androidx.biometric.BiometricPrompt
 interface BiometricAuthListener {
 
     fun onBiometricAuthenticateError(error: Int,errMsg: String)
-    fun onBiometericAuthenticateSuccess(result: BiometricPrompt.AuthenticationResult)
+    fun onBiometricAuthenticateSuccess(result: BiometricPrompt.AuthenticationResult)
 
 }

@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/AndroidProjects/Dagger_Hilt_Example/app/src/main/res/layout/activity_auth.xml" value="0.2421875" />
         <entry key="..\:/AndroidProjects/Dagger_Hilt_Example/app/src/main/res/layout/activity_main.xml" value="0.225" />
-        <entry key="..\:/Saqid Ahmed/BiometricApp/app/src/main/res/layout/activity_main.xml" value="0.1099899091826438" />
+        <entry key="..\:/Saqid Ahmed/BiometricApp/app/src/main/res/layout/activity_auth.xml" value="0.22708333333333333" />
+        <entry key="..\:/Saqid Ahmed/BiometricApp/app/src/main/res/layout/activity_login.xml" value="0.22708333333333333" />
+        <entry key="..\:/Saqid Ahmed/BiometricApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Saqid Ahmed/Dagger_Hilt_Example/app/src/main/res/layout/activity_auth.xml" value="0.2421875" />
       </map>
     </option>

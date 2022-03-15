@@ -3,7 +3,6 @@
     package="com.example.bioMetricApp">
 
     <application
-        android:name="com.example.bioMetricApp.app"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dagger_Hilt_Example">
         <activity
-            android:name="com.example.bioMetricApp.ui.AuthActivity"
+            android:name=".ui.LoginActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.bioMetricApp.ui.MainActivity"
+            android:name=".ui.AuthActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
