@@ -6,17 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".ui.AuthActivity">
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_hello"
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/input_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/guideline"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/encrypt_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello"
+        app:layout_constraintTop_toTopOf="@id/guideline"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/decrypt_button"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:text="Encrypt"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/decrypt_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrypt"
+        app:layout_constraintTop_toTopOf="@id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="30dp"
-        android:textColor="@color/purple_500"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/encrypt_button"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/output_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/decrypt_button"
         app:layout_constraintBottom_toBottomOf="parent"
         />
 

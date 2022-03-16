@@ -6,4 +6,6 @@
     <string name="use_biometric">use biometric</string>
     <string name="hello">Welcome to the Activity</string>
     <string name="nullvalue">null</string>
+    <string name="info_text">The String of the info</string>
+    <string name="secretKey">sample_biometric_app</string>
 </resources>
