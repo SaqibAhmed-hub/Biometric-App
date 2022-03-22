@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity(), BiometricAuthListener {
                 finish()
             }
         }
-
     }
 
     override fun onBiometricAuthenticateSuccess(result: BiometricPrompt.AuthenticationResult) {

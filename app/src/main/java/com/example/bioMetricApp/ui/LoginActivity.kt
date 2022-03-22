@@ -14,7 +14,6 @@ class LoginActivity : AppCompatActivity() {
         login_btn.setOnClickListener {
             checkAuthentication()
         }
-
     }
 
     private fun checkAuthentication() {
