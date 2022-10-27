@@ -14,7 +14,6 @@ class LoginActivity : AppCompatActivity() {
         login_btn.setOnClickListener {
             checkAuthentication()
         }
-
     }
 
     private fun checkAuthentication() {
@@ -29,5 +28,6 @@ class LoginActivity : AppCompatActivity() {
 
     private fun navigateToActivity() {
         startActivity(Intent(this, AuthActivity::class.java))
+        finish()
     }
 }

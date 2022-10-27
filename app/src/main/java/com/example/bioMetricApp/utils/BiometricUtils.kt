@@ -31,7 +31,7 @@ object BiometricUtils {
             .setTitle(title)
             .setSubtitle(subtitle)
             .setDescription(description)
-            .setAllowedAuthenticators(BIOMETRIC_STRONG or DEVICE_CREDENTIAL)
+            .setNegativeButtonText("Use account")
             .build()
 
     }
